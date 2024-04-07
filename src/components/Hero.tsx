@@ -13,7 +13,7 @@ const Hero = () => {
         className="hidden lg:block absolute -right-24 top-10"
       />
       <div className="lg:grid place-items-center space-y-10 relative">
-        <h1 className="text-2xl lg:text-7xl font-bold lg:-mt-49 mb-24 text-center">
+        <h1 className="text-2xl lg:text-7xl font-bold  mb-24 text-center top-10">
           Industry-leading stolen <br /> vehicle tracking solutions
         </h1>
         <iframe

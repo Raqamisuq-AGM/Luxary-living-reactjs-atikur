@@ -8,7 +8,7 @@ function Contact() {
   const onSubmit = (data) => console.log(data);
 
   return (
-    <div className="p-4 lg:p-24 protection">
+    <div className="p-4 lg:p-24 protection" id="contact-form">
       <div className="text-center">
         <h2 className="text-3xl lg:text-8xl font-semibold my-4">
           BECOME A DEALER

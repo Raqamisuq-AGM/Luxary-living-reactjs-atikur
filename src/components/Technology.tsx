@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Technology = () => {
   return (
     <div>
@@ -56,7 +54,9 @@ const Technology = () => {
               immobilisation solutions available, accredited by Thatcham, the
               industry benchmark for product quality and performence.
             </p>
-            <button className="text-2xl font-bold mt-3">Contact Us</button>
+            <a href="#contact-form" className="block w-fit text-2xl font-bold mt-3 bg-red-600 text-white px-4 py-3 rounded ">
+              Contact Us
+            </a>
           </div>
         </div>
       </section>

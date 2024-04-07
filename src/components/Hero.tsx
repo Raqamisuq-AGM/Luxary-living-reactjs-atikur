@@ -8,7 +8,7 @@ const Hero = () => {
         id="hero"
       >
         <div className="lg:grid place-items-center space-y-10 relative">
-          <h1 className="text-2xl lg:text-7xl font-bold md:mt-50 mb-24 text-center overlay-text ">
+          <h1 className="text-2xl lg:text-6xl font-bold md:mt-50 mb-24 text-center overlay-text ">
             Industry-leading stolen <br /> vehicle tracking solutions
           </h1>
         </div>

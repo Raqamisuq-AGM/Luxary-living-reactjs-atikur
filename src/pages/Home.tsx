@@ -1,8 +1,6 @@
-import { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Protection from '../components/Protection.jsx';
-import Defcom from '../components/Defcom';
 import Technology from '../components/Technology';
 import Contact from '../components/Contact';
 import Supplier from '../components/Supplier.tsx';

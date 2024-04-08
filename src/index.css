@@ -367,37 +367,26 @@ p {
   color: white !important;
 }
 
-
-
-@media only screen and (min-width: 768px) and (max-width: 871px) {
-  /* Your CSS styles for screen sizes between 768px and 1023px */
-  /* For example: */
-  .remove-top {
-    margin-top: -405px !important;
-  }
-}
-
-@media only screen and (min-width: 872px) and (max-width: 950px) {
-  /* Your CSS styles for screen sizes between 768px and 1023px */
-  /* For example: */
-  .remove-top {
-    margin-top: -405px !important;
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1482px) {
-  /* Your CSS styles for screen sizes between 768px and 1023px */
-  /* For example: */
-  .remove-top {
-    margin-top: -405px !important;
-  }
-}
-
 @media only screen and (max-width: 768px) {
   .navs a {
     color: #fff !important;
   }
 }
+
+iframe {
+  aspect-ratio: 16/9;
+  width: 65%;
+}
+
+@media screen and (max-width: 767px) {
+  iframe {
+    width: 100%;
+  }
+}
+
+/* iframe {
+  width: 100%;
+} */
 
 /* .overlay-text {
   background: rgba(255, 255, 255, 0.479);

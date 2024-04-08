@@ -41,6 +41,21 @@ const Hero = () => {
           </a>
         </div>
       </section>
+      <section className="bg-slate-800 p-10 xsm:-mt-[120px] md:-mt-[300px] lg:mt-0 remove-top">
+        <iframe
+          src="https://www.youtube.com/embed/XooGJcxzA_c?si=hAWQm-ZFZ_SFWoq1&autoplay=1&mute=1&loop=1"
+          class="rounded-[0.9rem] mx-auto w-[70%] h-[20rem] lg:h-[45rem] max-sm:w-[100%] max-sm:h-[16rem] drop-shadow-xl shadow-gray-500"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <a
+          href="#contact-form"
+          className="bg-red-500 text-white px-10 py-3 text-2xl rounded mx-auto w-fit block mt-10"
+        >
+          BECOME A DEALER
+        </a>
+      </section>
     </>
   );
 };

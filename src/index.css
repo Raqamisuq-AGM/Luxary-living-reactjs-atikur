@@ -367,11 +367,29 @@ p {
   color: white !important;
 }
 
+
+
 @media only screen and (min-width: 768px) and (max-width: 871px) {
   /* Your CSS styles for screen sizes between 768px and 1023px */
   /* For example: */
   .remove-top {
-    margin-top: -350px !important;
+    margin-top: -405px !important;
+  }
+}
+
+@media only screen and (min-width: 872px) and (max-width: 950px) {
+  /* Your CSS styles for screen sizes between 768px and 1023px */
+  /* For example: */
+  .remove-top {
+    margin-top: -405px !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1482px) {
+  /* Your CSS styles for screen sizes between 768px and 1023px */
+  /* For example: */
+  .remove-top {
+    margin-top: -405px !important;
   }
 }
 

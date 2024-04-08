@@ -1,6 +1,6 @@
 const Technology = () => {
   return (
-    <div className="">
+    <div className="xsm:-mt-[120px] md:-mt-[300px] lg:mt-0 remove-top">
       <div className="p-10 py-32 space-y-10  protection">
         <h1 className="italic text-3xl lg:text-8xl font-bold relative lg:left-32 text-slate-500">
           TECHNOLOGY

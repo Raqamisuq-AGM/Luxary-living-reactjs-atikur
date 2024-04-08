@@ -367,6 +367,20 @@ p {
   color: white !important;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 871px) {
+  /* Your CSS styles for screen sizes between 768px and 1023px */
+  /* For example: */
+  .remove-top {
+    margin-top: -350px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navs a {
+    color: #fff !important;
+  }
+}
+
 /* .overlay-text {
   background: rgba(255, 255, 255, 0.479);
   border-radius: 5px;

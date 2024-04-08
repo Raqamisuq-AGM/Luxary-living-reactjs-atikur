@@ -3,7 +3,7 @@ import Protection from '../components/Protection.jsx';
 import Technology from '../components/Technology';
 import Contact from '../components/Contact';
 import Supplier from '../components/Supplier.tsx';
-import HeroTwo from '../components/HeroTwo.tsx';
+import Hero from '../components/Hero.tsx';
 
 const Home = () => {
   return (
@@ -17,8 +17,7 @@ const Home = () => {
         className="absolute -z-1"
       /> */}
       <Navbar />
-      {/* <Hero /> */}
-      <HeroTwo/>
+      <Hero/>
       <Protection />
       {/* <Defcom /> */}
       <Technology />

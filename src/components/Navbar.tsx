@@ -61,7 +61,10 @@ const Navbar = () => {
               : 'border-2 border-orange-500 text-white px-4 py-2 rounded-xl'
           }
         >
-          <a href="#contact-form" className="text-orange-700">
+          <a
+            href="#contact-form"
+            className="text-white"
+          >
             Become a Dealer
           </a>
         </a>

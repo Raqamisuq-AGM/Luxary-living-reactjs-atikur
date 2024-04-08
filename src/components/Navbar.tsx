@@ -33,7 +33,7 @@ const Navbar = () => {
     <div
       className={clsx(
         'navs flex flex-col items-center md:flex-row gap-6 p-[15%] md:p-0 shadow-md md:shadow-none absolute md:static w-full md:w-auto duration-500 md:duration-0 ease-linear nav-items navbar-for-mob z-10',
-        isOpen ? 'top-18 left-0' : '-top-full left-0',
+        isOpen ? 'top-18 left-0' : '-top-[100vh] left-0',
       )}
     >
       <NavLink

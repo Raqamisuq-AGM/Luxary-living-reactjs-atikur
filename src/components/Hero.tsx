@@ -4,14 +4,14 @@ import image8 from '../assets/hero-video-background-mobile.jpg';
 const Hero = () => {
   return (
     <>
-      <section className="hidden md:block h-[100vh] relative mb-30">
+      <section className="hidden md:block h-[100vh] relative ">
         <video
           src="https://player.vimeo.com/progressive_redirect/playback/617758483/rendition/1080p/1080p.mp4?loc=external&signature=abb59e5d4393b334d8fe10a22676b69600e48bf96a91f9b8764b233800bfa6a0"
           autoPlay
           loop
           playsInline
           muted
-          className="absolute top-0 left-0 -z-1"
+          className="absolute top-0 left-0 -z-1 h-full w-full object-cover"
         />
         <div className="lg:grid place-items-center z-10">
           <h1 className="text-2xl lg:text-6xl font-bold pt-20 mb-24 text-center overlay-text ">
@@ -19,9 +19,9 @@ const Hero = () => {
           </h1>
         </div>
       </section>
-      <section className="block md:hidden h-[100vh] relative mb-30">
+      <section className="block md:hidden h-[100vh] relative ">
         <div
-          className="absolute -z-1 w-full top-0"
+          className="absolute -z-1 w-full h-full top-0"
           style={{
             backgroundImage: `url(${image8})`,
             backgroundSize: 'cover',
@@ -41,13 +41,15 @@ const Hero = () => {
           </a>
         </div>
       </section>
-      <section className="bg-slate-800 p-10 xsm:-mt-[120px] md:-mt-[300px] lg:mt-0 remove-top">
+      <div className="bg-slate-800 p-10   ">
         <iframe
-          src="https://www.youtube.com/embed/XooGJcxzA_c?si=hAWQm-ZFZ_SFWoq1&autoplay=1&mute=1&loop=1"
-          class="rounded-[0.9rem] mx-auto w-[70%] h-[20rem] lg:h-[45rem] max-sm:w-[100%] max-sm:h-[16rem] drop-shadow-xl shadow-gray-500"
+          src="https://www.youtube.com/embed/XooGJcxzA_c?si=TWFyb39hjQyyiPFS&autoplay=1&mute=1"
+          title="YouTube video player"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
+          className='mx-auto'
         ></iframe>
         <a
           href="#contact-form"
@@ -55,7 +57,7 @@ const Hero = () => {
         >
           BECOME A DEALER
         </a>
-      </section>
+      </div>
     </>
   );
 };

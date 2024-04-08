@@ -74,7 +74,7 @@ const Navbar = () => {
       <div className="wrapper h-[10vh] flex items-center justify-between">
         {/* title */}
         <a href="/">
-          <img src={logo} alt="Floor Plan" className="w-35" />
+          <img src={logo} alt="Floor Plan" className="w-35 md:w-50" />
         </a>
 
         {/* toggle nav */}

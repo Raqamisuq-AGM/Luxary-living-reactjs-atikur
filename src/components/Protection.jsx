@@ -16,8 +16,8 @@ const Protection = () => {
     setHoveredLink(link);
   };
   return (
-    <div className="hidden lg:block pt-5 mt-5 pb-5 class_of_top h-[80vh] ">
-      <div className="hover_image_ py-24" id={hoveredLink}>
+    <div className="hidden lg:block pt-5 mt-5 pb-5 class_of_top ">
+      <div className="hidden lg:block hover_image_ py-24" id={hoveredLink}>
         {' '}
       </div>
       <Container className="d_grid_center py-24 space-y-7">

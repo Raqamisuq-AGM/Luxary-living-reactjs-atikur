@@ -139,7 +139,7 @@ body {
 @media (max-width: 768px) {
   .navbar-for-mob {
     background-color: gray !important;
-    border-top: 2px solid white;
+    /* border-top: 2px solid white; */
     color: white !important;
     height: 100vh;
   }
@@ -223,12 +223,12 @@ p {
 }
 .hover_image_ {
   position: absolute;
-  top: 0;
+  top: 5%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px !important;
-  width: 23% !important;
+  width: 20% !important;
 }
 #link_8 {
   background-image: url('./assets/Protection-slider-image2.png') !important;
@@ -367,11 +367,11 @@ p {
   color: white !important;
 }
 
-.overlay-text {
+/* .overlay-text {
   background: rgba(255, 255, 255, 0.479);
   border-radius: 5px;
   padding: 20px;
-}
+} */
 
 /* @media screen and (max-width: 767px) {
   .overlay-text {

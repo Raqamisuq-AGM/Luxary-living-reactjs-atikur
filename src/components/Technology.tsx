@@ -1,6 +1,6 @@
 const Technology = () => {
   return (
-    <div>
+    <div className="">
       <div className="p-10 py-32 space-y-10  protection">
         <h1 className="italic text-3xl lg:text-8xl font-bold relative lg:left-32 text-slate-500">
           TECHNOLOGY
@@ -15,9 +15,12 @@ const Technology = () => {
           possible, using the smallest, smartest devices.
         </p>
 
-        <button className="bg-red-600 text-white px-4 py-3 rounded grid lg:place-items-center text-2xl lg:mx-auto my-5">
+        <a
+          href="#contact-form"
+          className="w-fit bg-red-600 text-white px-4 py-3 rounded grid lg:place-items-center text-2xl lg:mx-auto my-5"
+        >
           Become a Dealer
-        </button>
+        </a>
       </div>
       <div className="p-10 py-32 space-y-5 bg-slate-800">
         <h1 className="italic text-3xl lg:text-8xl font-bold relative lg:left-32 text-cyan-200">
@@ -54,7 +57,10 @@ const Technology = () => {
               immobilisation solutions available, accredited by Thatcham, the
               industry benchmark for product quality and performence.
             </p>
-            <a href="#contact-form" className="block w-fit text-2xl font-bold mt-3 bg-red-600 text-white px-4 py-3 rounded ">
+            <a
+              href="#contact-form"
+              className="block w-fit text-2xl font-bold mt-3 bg-red-600 text-white px-4 py-3 rounded "
+            >
               Contact Us
             </a>
           </div>
